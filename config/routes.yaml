@@ -3,3 +3,12 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+api_authenticator:
+    path: "/api/auth"
+    methods: ['POST']
+
+api_orders:
+    path: "api/orders"
+    methods: ['GET']
+
